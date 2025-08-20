@@ -2,17 +2,7 @@
   "name": "react-native-reanimated-dnd",
   "version": "1.1.0",
   "description": "A powerful drag-and-drop library for React Native using Reanimated 3",
-  "main": "lib/index.js",
-  "module": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./lib/index.d.ts",
-      "import": "./lib/index.js",
-      "default": "./lib/index.js"
-    }
-  },
+  "main": "index.ts",
   "sideEffects": false,
   "scripts": {
     "build": "tsc && npm run minify",
@@ -58,7 +48,11 @@
     "terser": "^5.36.0"
   },
   "files": [
-    "lib/**/*.js",
+    "index.ts",
+    "components",
+    "context",
+    "hooks",
+    "types",
     "lib/**/*.d.ts",
     "README.md",
     "LICENSE"
