@@ -245,7 +245,7 @@ const Handle = ({ children, style }: DraggableHandleProps) => {
  * @see {@link UseDraggableReturn} for hook return details
  * @see {@link DropProvider} for drag-and-drop context setup
  */
-const DraggableComponent = <TDatan,>({
+const DraggableComponent = <TData = unknown,>({
   // Destructure component-specific props first
   style: componentStyle,
   children,
