@@ -270,7 +270,7 @@ export const _getUniqueDroppableId = (): number => {
  * @see {@link UseDroppableReturn} for hook return details
  * @see {@link DropProvider} for drag-and-drop context setup
  */
-export const Droppable = <TData = unknown,>({
+export const Droppable = <TData,>({
   onDrop,
   dropDisabled,
   onActiveChange,
